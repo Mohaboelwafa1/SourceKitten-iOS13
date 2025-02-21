@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SourceKitten",
+    name: "SourceKitten-iOS13",
     platforms: [.macOS(.v13)],
     products: [
         .executable(name: "sourcekitten", targets: ["sourcekitten"]),
