@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "SourceKitten",
-    platforms: [.macOS(.v12)],
+    platforms: [.macOS(.v13)],
     products: [
         .executable(name: "sourcekitten", targets: ["sourcekitten"]),
         .library(name: "SourceKittenFramework", targets: ["SourceKittenFramework"])
